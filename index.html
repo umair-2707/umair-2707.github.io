@@ -12,21 +12,52 @@
         
         h1 {
             color: #333;
-            font-size: 28px;
+            font-size: 32px;
+            text-shadow: 2px 2px 4px #999;
         }
         
         p {
             color: #555;
             font-size: 18px;
         }
+
+        .birthday-card {
+            width: 400px;
+            background-color: #ffcc00;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 0 auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .birthday-card img {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        .birthday-card p {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .birthday-card p:last-child {
+            margin-bottom: 0;
+        }
+        
+        .signature {
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>Happy Birthday, Priyanka!</h1>
-    <p>Wishing you a day filled with joy, laughter, and wonderful memories.</p>
-    <p>May all your dreams and aspirations come true on this special day.</p>
-    <p>Have a fantastic birthday!</p>
-    <p>Love,</p>
-    <p>Your Name</p>
+    <div class="birthday-card">
+        <img src="birthday_image.jpg" alt="Birthday Image">
+        <h1>Happy Birthday, Priyanka!</h1>
+        <p>Wishing you a day filled with joy, laughter, and wonderful memories.</p>
+        <p>May all your dreams and aspirations come true on this special day.</p>
+        <p>Have a fantastic birthday!</p>
+        <p class="signature">Mohammad Umair</p>
+    </div>
 </body>
 </html>
